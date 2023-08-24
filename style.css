@@ -1,0 +1,118 @@
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 14px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* end of nav */
+/* home page header*/
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: slategray;
+
+}
+.section1{
+    height: 300px;
+    width: 50%;
+    background-color:slategray;
+    padding: 15px;
+}
+.section2{
+    width: 50%;
+    height: 300px;
+    margin: 30px 40px;
+    background: url(./image/home.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.btnReserve{
+    margin-top: 50px;
+    padding: 15px 50px;
+    background-color: orange;
+    border: 0;
+    font-size: 18px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+}
+.btnReserve:hover{
+    background: transparent;
+    border: 1px solid orange;
+}
+/* main 2 */
+
+
+h3{
+    margin-top: 30px;
+    padding: 15px 50px;
+    margin: 15px 50px;
+}
+.btnOnline{
+    margin-top: 5px;
+    background-color: orange;
+    border: 0;
+    font-size: 15px;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+}
+.btnOnline:hover{
+    border: 1px solid orange;
+}
+.weekspecial{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.onlinemenu{
+    margin-top: 5px;
+    width: 33%;
+    height: 400px;
+    background-color:lightslategray;
+}
+.img{
+    height: 200px;
+    background: url(./image/alfredo\ spag2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    height: 200px;
+    background: url(./image/burger1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    height: 200px;
+    background: url(./image/fries3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Btnorder{
+       background-color: orange;
+       border: 0px;
+       border-radius: 13px;
+
+}
+.Btnorder:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+
+}
+
